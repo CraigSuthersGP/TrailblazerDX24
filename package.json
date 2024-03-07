@@ -1,0 +1,17 @@
+{
+  "name": "SFBenTest",
+  "type": "module",
+  "scripts": {
+    "setup:standalone": "node ./setup/standalone.js",
+    "basic": "node ./src/basic_performance_test.js",
+    "ept": "node ./src/ept_performance_test.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.29.1",
+    "@wdio/devtools-service": "^8.29.1",
+    "@wdio/local-runner": "^8.29.2"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
